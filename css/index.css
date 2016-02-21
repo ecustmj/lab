@@ -1,0 +1,235 @@
+body {
+  background-color: azure;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+/*
+	height messes up the headers in the blog in the articles
+	it's only appropriate for the top header.
+	add a class (new with blog)
+	Affects the 3 #header rules for the main header below
+	In HTML: add class="top" to main header in index.html and blog.html
+*/
+
+
+#brand {
+	background: #FFF;
+	padding: 10px 17px 10px 17px;
+	height: 150px;
+	overflow: hidden;
+}#brand .logo {
+	padding-top: 0px;
+	padding-left: 16px;
+	width: 440px;
+	float: left;
+	color: #333;
+	font-size: 2em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#brand .logo img {
+	display: block;
+	padding-bottom: 12px;
+
+}
+
+#brand p.logo,
+#brand a.logo {
+	display: block;
+}
+
+#brand a.logo {
+	text-decoration: none;
+}
+
+
+}
+#sitetools {
+	float: right;
+	text-align: center;
+	padding-right: 15px;
+
+	width: 400px;
+}
+
+#sitetools ul {
+	overflow: hidden;
+}
+
+#sitetools li {
+	list-style-type: none;
+	float: right;
+}
+
+#sitetools li a {
+	display: block;
+	font-size: 0.95em;
+	padding: 8px 12px 4px 12px;
+	background-color: #f0f0f0;
+	color: #333;
+}
+
+#sitetools li a:hover,
+#sitetools li a:active {
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #FF9;
+	color: #F60;
+}
+
+body.siteMap #sitetools li.siteMap a:link,
+body.siteMap #sitetools li.siteMap a:visited,
+body.downloads #sitetools li.downloads a:link,
+body.downloads #sitetools li.downloads a:visited,
+body.contact #sitetools li.contact a:link,
+body.contact #sitetools li.contact a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #0CF;
+	color: #FFF;
+	}#langtools {
+	float: right;
+	text-align: center;
+	padding-right: 15px;
+
+	width: 390px;
+	}
+
+#langtools ul {
+	overflow: hidden;
+}
+
+#langtools li {
+	list-style-type: none;
+	float: right;
+}
+
+#langtools li a {
+	display: block;
+	font-size: 0.95em;
+	padding: 15px 12px 4px 12px;
+	color: #000;
+}
+
+#langtools li img {
+	vertical-align: middle;
+}
+
+#langtools li a:hover,
+#langtools li a:active {
+	color: #C00;
+	text-decoration: none;
+	}
+
+
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;;
+}
+
+div#tableRow {
+	display: table-row;
+}
+nav{
+  background-color: mediumblue;
+
+}
+nav li{
+    font-size: larger;
+}
+section#news {
+    display: table-cell;
+    background-color: #e0ffff;
+    width: 30%;
+    padding: 10px;
+    vertical-align: top;
+    font-size: large;
+}
+
+/* added section#blog for blog */
+section#main, section#blog {
+  display: table-cell;
+  background:       #efe5d0 url(images/background.gif) top left;
+	width:30%;
+	vertical-align: top;
+  font-size:        large;
+  padding:          10px;
+  background-color: wheat;
+
+}
+.mingzi{  font-weight: bold;
+}
+footer {
+  background-color: #675c47;
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        110%;
+}
+
+h1 {
+  font-size:        120%;
+  color:            #954b4b;
+}
+
+h2 { font-size: 110%; }
+
+.slogan { color: #954b4b; }
+
+.beanheading {
+  text-align:       center;
+  line-height:      1.8em;
+}
+
+a:link {
+  color:           green;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            red;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+a:hover{
+  color: yellow;
+}
+
+nav {
+    background-color: #efe5d0;
+	margin: 25px 10px 15px 10px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 0px 10px 5px 10px;
+
+}
+nav ul li a:link, nav ul li a:visited {
+
+	border-bottom: none;
+	font-weight: bold;
+    font-size: 21px;
+
+/*
+	text-shadow: 1px 1px 3px #e2c2c2;
+	text-transform: uppercase;
+*/
+}
+
+
+.biaoti{
+  font-family: inherit;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}
